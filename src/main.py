@@ -1,4 +1,4 @@
-from data.py import milky_way_dates
+from data import milky_way_dates
 import urllib.request
 import urllib.parse
 import json
@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 from typing import List, Tuple
 
 API_BASE_URL = "https://api.ipgeolocation.io/astronomy"
-API_KEY = "your-api-key-here"
+API_KEY = "your_api_key_here"
 
 # cache the geolocation api response data for 1 day to avoid making too many requests
 sun_and_moon_data_cache = {}
