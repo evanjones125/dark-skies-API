@@ -1,1 +1,1 @@
-# dark-skies-API
+# Dark Skies API
